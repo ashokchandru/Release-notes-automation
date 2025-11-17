@@ -3,9 +3,9 @@ We will use JSON to give inputs to the LLM to create strrcutured consistent outp
 
 Historic release notes are stored in repository
 
-Pure automation: (Doesn't work for organizations w)
+Full automation: (Doesn't work for organizations w)
 Agent looks for Git commits and Pull requests when you add a tag e.g. RN, it the content is copied for release notes
-# Reasons why this is impractical: 
+### Reasons why this is impractical: 
 * The product team should curate which features or tickets to be shown in the release notes
 * It will be difficult to edit already generated release notes
 
@@ -14,10 +14,10 @@ Agent looks for Git commits and Pull requests when you add a tag e.g. RN, it the
 * Creates the source of truth in JSON file with the change data (updates.json). (You can also use yaml, but the indentation issues is an unnecessary headache. Go for JSON for better structure)
 * Uploads the JSON file to the agent
 ~~~
-# Reasons to choose YAML over prompt engineering
+# Reasons to choose JSON over prompt engineering
 * LLMs are not robust enough to produce strcutured content based on prompts.
 * Future of prompt engineering is going to be JSON or YAML.
-* YAML format is great for the agent to interact with LLMs.~~~
+* JSON format is great for the agent to interact with LLMs.~~~
 ~~~
 * Agent reads the JSON file
 * Agent creates the new release notes in the format of an md file
