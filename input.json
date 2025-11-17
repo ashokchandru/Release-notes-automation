@@ -1,0 +1,11 @@
+{
+  "version": "5.0.0",
+  "updates": {
+    "new_features": [
+      "Improved performance logs"
+    ],
+    "known_issues": [
+      "Audit log crashes during scan"
+    ]
+  }
+}
