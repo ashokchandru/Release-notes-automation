@@ -1,4 +1,4 @@
-In the future most technical documentation will be in JSON. But, for the time being we will use created the documents in Markdown.
+In the future most technical documentation will be in JSON. But, for the time being we will use Markdown for documentation.
 We will use JSON to give inputs to the LLM to create strrcutured consistent output.
 
 Historic release notes are stored in repository
